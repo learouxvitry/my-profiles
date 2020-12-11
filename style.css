@@ -1,0 +1,119 @@
+/*Colors and fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body {
+  color : black;
+  font-family: Arial;
+  font-size:16px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  min-height: 100vh;
+  overflow: auto;
+  text-align: justify;
+}
+
+h1 {
+  color:#66bfbf;
+  font-family: Lobster;
+  font-size: 5vw;
+}
+h2 {
+  color:#66bfbf;
+  font-family: Lobster;
+  font-size: 4vw;
+}
+h3 {
+  color:black;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+/*Pour me suivre*/
+a{
+  text-decoration: none;
+  color:#3d7ea6;
+}
+a:hover{
+  color:#7579e7;
+}
+
+/*Pour les cases*/
+.container{
+  margin:10px auto;
+}
+
+/* Pour faire les cases blanches*/
+.card-white {
+  background-color: hsl(0, 0%, 100%, 0.3);
+  width: 80vw;
+  padding: 20px;
+  box-shadow: 20px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 40px auto;
+}
+
+/*Pour la dernière case blanche, me suivre */
+.card-white2 {
+  background-color: #9ddfd3 100%;
+  padding: 20px;
+  box-shadow: 20px 10px 30px rgba(0,0,0,0.1);
+  margin: 5px;
+  text-align :center;
+}
+
+/* Pour les logos des réseaux sociaux */
+.imgMedia {
+  width: 45px;
+  height: 45px;
+  margin: 20px;
+  float :center;
+}
+
+.logo-WWF {
+  width: 180px;
+  height:180px;
+  margin: 10px;
+}
+
+#logo-EMLV{
+  margin-left: 0 auto 5em;
+  width: 100px;
+  border-radius :20%;
+}
+/* Pour ma photo de profile*/
+#profilepicture {
+  display: block;
+  margin: 0 auto 2em;
+  width: 170px;
+  border-radius: 50%;
+}
+
+/*Menu*/
+nav{
+  display: block;
+  border-radius: 6px;
+  width:99vw;
+  margin: 3px auto;
+  padding: 4px 0px;
+  background-color: #fed6e3 100%;
+  text-align: center;
+}
+
+.menuBar {
+ color: black;
+ font-size: 18px;
+ font-family: Lato;
+}
+
+.menuBar:hover{
+  color: #66bfbf;
+  background-color: #e0ece4;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+li {
+  display: inline;
+  margin: 0 3vw;
+}
